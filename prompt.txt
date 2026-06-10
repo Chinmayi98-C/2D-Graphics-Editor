@@ -1,1 +1,58 @@
+prompt 1
+Write a 2d graphics editor using * and  _.
 
+1. Write functions to draw a circle, rectangle, line, and triangle.
+2. You should be able to      add objects to the picture,      delete objects from the picture, and       modify objects in the picture.
+3. Use a 2d array of characters to store the picture.
+4. Write a function to display the picture.
+
+create complete c language project named 2d graphics editor tht runs in the terminal with the above requirement and create seperate sperate file for the canvas rectangle line triangle 
+
+And the output should be in this format2D Graphics Editor
+Canvas size: 80 x 24
+1. Add object
+2. Delete object
+3. Modify object
+4. Display picture
+5. List objects
+0. Exit
+Enter choice: 
+Choose shape type:
+1. Line
+2. Rectangle
+3. Circle
+4. Triangle
+Enter shape type: Enter x1 y1 x2 y2: Object added with index 0. 
+
+
+Response from vs code
+Checking current project files and existing code structure.
+
+Creating the editor files and structure now.
+
+Adding shape-specific drawing implementations.
+
+Fixing header dependency between shapes.h and canvas.h.
+
+Edited
+shapes.h
+Compiling the project to verify the editor and shape files.
+
+2D Graphics Editor Created
+✅ Project files added:
+
+main.c
+canvas.h
+canvas.c
+shapes.h
+line.c
+rectangle.c
+circle.c
+triangle.c
+Features implemented
+Add objects: line, rectangle, circle, triangle
+Delete objects
+Modify objects
+Display the picture using an 80x24 character canvas
+Store the picture in a 2D char array (_ background, * drawing)
+List object indices and parameters
